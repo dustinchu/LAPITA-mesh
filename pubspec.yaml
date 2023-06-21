@@ -1,0 +1,39 @@
+name: mesh
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.13+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  file_picker: ^5.2.4
+  flutter_reactive_ble: ^5.0.2
+  permission_handler: ^10.2.0
+  device_info_plus: ^8.0.0
+  nordic_nrf_mesh: ^0.13.0
+  url_launcher: ^6.1.9
+    #preferences
+  shared_preferences: ^2.0.15
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
